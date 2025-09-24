@@ -20,7 +20,7 @@ def save_posts(posts):
 @app.route("/")
 def index():
     posts = load_posts()
-    posts.reverse() 
+    posts.reverse()
     return render_template("index.html", posts=posts)
 
 @app.route("/add", methods=["POST"])
