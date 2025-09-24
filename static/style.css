@@ -8,7 +8,7 @@ body {
 h1 {
   text-align: center;
   color: #2a4d69;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-top: 32px;
   margin-bottom: 10px;
 }
@@ -21,7 +21,7 @@ h2 {
 
 form {
   background: #fff;
-  max-width: 420px;
+  max-width: 500px;
   margin: 30px auto;
   padding: 22px 32px;
   border-radius: 12px;
@@ -30,4 +30,44 @@ form {
   flex-direction: column;
   gap: 14px;
   border: 2px solid #e0eaff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 9px;
+  border: 1px solid #b3c6e0;
+  border-radius: 6px;
+  width: 100%;
+  background: #f4f8ff;
+}
+
+button {
+  background: #2a4d69;
+  color: #fff;
+  border: none;
+  padding: 11px;
+  border-radius: 6px;
+}
+
+.post {
+  background: #fff;
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 15px 22px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(42,77,105,0.06);
+  border-bottom: 2px solid #e0eaff;
+}
+
+.time {
+  font-size: 0.92em;
+  color: #7a92b2;
+  margin-bottom: 2px;
+}
+
+.name {
+  font-weight: 600;
+  color: #2a4d69;
+  margin-bottom: 7px;
 }
